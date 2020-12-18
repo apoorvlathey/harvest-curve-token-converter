@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "truffle compile",
+    "test": "npx mocha --exit --recursive --timeout 200000"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "@openzeppelin/test-environment": "^0.1.8",
     "@openzeppelin/test-helpers": "^0.5.9",
     "dotenv": "^8.2.0",
+    "mocha": "^8.2.1",
     "truffle-token-test-utils": "^0.2.0"
   }
 }
