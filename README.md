@@ -4,4 +4,4 @@
 ---
 
 ## Token Transfers on Forked Mainnet (in single txn) via deposit():
-![Test Output](./media/test-output.png)
+![Test Output](https://i.imgur.com/jyUTCnN.png)
